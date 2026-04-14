@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eefdda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.kotak-jam {
+    background: #95c9c0;
+    padding: 30px 60px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(186, 209, 231, 0.3);
+    transition: 0.3s;
+}
+
+.kotak-jam:hover {
+    transform: scale(1.05);
+    border: 2px solid #BE9A60;
+}
+
+#tanggal {
+    color: #FFE0E9;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#jam {
+    color: hsl(80, 16%, 96%);
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
